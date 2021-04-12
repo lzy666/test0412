@@ -49,7 +49,7 @@ public class DevLoginController {
 			return "devlogin";
 		}
 	}
-	
+	//测试下
 	@RequestMapping(value="/flatform/main")
 	public String main(HttpSession session){
 		if(session.getAttribute(Constants.DEV_USER_SESSION) == null){
